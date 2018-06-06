@@ -50,6 +50,10 @@ module RocketChat
       @groups ||= RocketChat::Messages::Group.new(self)
     end
 
+    def rooms
+      @rooms ||= RocketChat::Messages::Room.new(self)
+    end
+
     def users
       @users ||= RocketChat::Messages::User.new(self)
     end
