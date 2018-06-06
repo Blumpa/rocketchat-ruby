@@ -14,6 +14,7 @@ require 'rocket_chat/messages/user'
 require 'rocket_chat/messages/settings'
 require 'rocket_chat/messages/room'
 require 'rocket_chat/messages/channel'
+require 'rocket_chat/messages/im'
 require 'rocket_chat/messages/group'
 require 'rocket_chat/messages/chat'
 
