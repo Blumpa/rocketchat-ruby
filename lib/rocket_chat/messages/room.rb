@@ -23,6 +23,7 @@ module RocketChat
 
       # Full API path to call
       def self.api_path(method)
+        collection = 'im' if collection == 'ims'
         "/api/v1/#{collection}.#{method}"
       end
 
